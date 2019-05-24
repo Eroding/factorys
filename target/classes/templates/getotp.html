@@ -21,19 +21,30 @@
 
 <script>
     $("#getotp").click(function(){
+        var telphone = $("#telphone").val();
+        if(telphone == null||telphone ==""){
+            alert("手机号不能为空");
+            return;
+        }
         $.ajax({
             type:"POST",
             contentType:"application/x-www-form-urlencoded",
                 url:"http://localhost:8090/user/getotp",
                 data:{"telphone":$("#telphone").val()},
+            //跨域请求
+            xhrFields:{withCredentials:true},
             success:function(data) {
                 if(data.status =="success"){
                     alert("发送成功");
+
+                    window.location.href="file:///E:/idea/factorys/src/main/resources/templates/register.html";
                 }
 else {
     alert("失败，原因"+data.data.errMsg);
                 }
             },
+
+            //以下的error是网络请求出现异常才捕获到的，当服务端处理时都是返回到以上的success或者error
             error:function(data){
 alert("otp发送失败，原因是+"+data.responseText);
             }

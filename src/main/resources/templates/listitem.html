@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <title>商品列表浏览</title>
+</head>
+<body>
+
+<h3>商品列表浏览</h3>
+
+<div>
+<table>
+<thead>
+<tr>
+
+<th>商品名</th>
+<th>商品图片</th>
+<th>商品描述</th>
+<th>商品价格</th>
+<th>商品库存</th>
+<th>商品销量</th>
+</tr>
+</thead>
+
+<tbody id="container">
+
+
+</tbody>
+
+</table>
+   
+</div>
+
+</body>
+
+
+<script>
+   
+   
+   //定义全局商品数组信息，是一个数组
+   var g_itemList=[];
+   
+        $.ajax({
+            type:"GET",
+           
+            url:"http://localhost:8090/item/list",
+          
+            //跨域请求
+            xhrFields:{withCredentials:true},
+            success:function(data) {
+                if(data.status =="success"){
+                 g_itemList = data.data;
+				 reloadDom();
+                }
+else {
+    alert("获取商品失败失败，原因"+data.data.errMsg);
+                }
+            },
+
+            //以下的error是网络请求出现异常才捕获到的，当服务端处理时都是返回到以上的success或者error
+            error:function(data){
+alert("获取商品失败，原因是+"+data.responseText);
+            }
+        });
+
+
+	
+	
+	function reloadDom(){
+	for(var i=0;i<g_itemList.length;i++){
+	var itemVO = g_itemList[i];
+	
+	   var dom = "<tr data-id='"+itemVO.id+"' id='itemDetail"+itemVO.id+"'><td>"+itemVO.title+"</td><td>"+itemVO.imgUrl+"</td><td>"+itemVO.description+"</td><td>"+itemVO.price+"</td><td>"+itemVO.stock+"</td><td>"+itemVO.sales+"</td></tr>";
+
+$("#container").append($(dom));
+
+	$("#itemDetail"+itemVO.id).on("click",function(e){
+	window.location.href="getItem.html?id="+$(this).data("id");
+	});
+
+    }
+	}
+
+
+</script>
+</html>

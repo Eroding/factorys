@@ -7,21 +7,23 @@ import com.factorys.error.EmBusinessError;
 import com.factorys.response.CommonReturnType;
 import com.factorys.service.UserService;
 import com.factorys.service.model.UserModel;
-import org.apache.tomcat.util.security.MD5Encoder;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import sun.misc.BASE64Encoder;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
-import java.util.Map;
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Random;
 
 @Controller("user")
 @RequestMapping("/user")
-@CrossOrigin
+//接受跨域请求中的ajax数据，可以在http通信中的seesion中共享数据
+@CrossOrigin(allowCredentials="true",origins = {"*"})
 public class UserController extends  BaseController{
 
     @Autowired
@@ -31,18 +33,33 @@ public class UserController extends  BaseController{
     @Autowired
     private  HttpServletRequest httpServletRequest;
 
-    //测试html页面是否可用
-    @RequestMapping("/test")
-    public String test(){
-        return "../firstdemo";
+
+    //用户登录接口
+    @RequestMapping(value = "/login",method = {RequestMethod.POST},consumes ={CONTENT_TYPE_FORMED})
+    @ResponseBody
+    public CommonReturnType login(@RequestParam(name="telphone")String telphone,
+                                  @RequestParam(name="password")String password) throws BusinessException, UnsupportedEncodingException, NoSuchAlgorithmException {
+
+        //入参校验。判断传进来的值是否为空
+        if (StringUtils.isEmpty(telphone) || StringUtils.isEmpty(password)) {
+
+            throw new BusinessException(EmBusinessError.PARAMETER_VALIDATION_ERROR);
+        }
+
+        //用户登录服务，用来校验用户登录是否合法
+     UserModel userModel =    userService.validateLogin(telphone, this.EncodeByMd5(password));
+
+//把登录凭证（类似于tokeln）加入到用户登录成功的session内
+        this.httpServletRequest.getSession().setAttribute("IS_LOGIN",true);
+        this.httpServletRequest.getSession().setAttribute("LOGIN_USER",userModel);
+
+        return CommonReturnType.creat(null);
     }
 
 
 
-
-
 //用户注册接口
-@RequestMapping(value = "regiser",method = {RequestMethod.POST},consumes ={CONTENT_TYPE_FORMED} )
+@RequestMapping(value = "/register",method = {RequestMethod.POST},consumes ={CONTENT_TYPE_FORMED})
 @ResponseBody
     public CommonReturnType regiser(@RequestParam(name = "telphone")String telphone,
                                     @RequestParam(name = "otpCode")String otpCode,
@@ -50,7 +67,7 @@ public class UserController extends  BaseController{
                                     @RequestParam(name = "gender")Integer gender,
                                     @RequestParam(name = "age")Integer age,
                                     @RequestParam(name = "password")String passeord
-                                    ) throws BusinessException {
+                                    ) throws BusinessException, UnsupportedEncodingException, NoSuchAlgorithmException {
    //验证手机号和otpCode相符合，
        String insessionotpCode = (String) this.httpServletRequest.getSession().getAttribute(telphone);
 
@@ -65,7 +82,7 @@ public class UserController extends  BaseController{
         userModel.setAge(age);
         userModel.setTelphone(telphone);
         userModel.setRegisterMode("byphone");
-userModel.setEncrptPassword(MD5Encoder.encode(passeord.getBytes()));
+userModel.setEncrptPassword(this.EncodeByMd5(passeord));
 userService.register(userModel);
         return CommonReturnType.creat(null);
     }
@@ -73,7 +90,21 @@ userService.register(userModel);
 
 
 
-    @RequestMapping(value = "getotp",method = {RequestMethod.POST},consumes ={CONTENT_TYPE_FORMED} )
+
+    //md5加密，讲前端穿过来的password明文加密
+public String EncodeByMd5(String str) throws NoSuchAlgorithmException, UnsupportedEncodingException {
+    //确定计算方法
+    MessageDigest md5 = MessageDigest.getInstance("MD5");
+    BASE64Encoder base64 = new BASE64Encoder();
+    //加密字符串
+    String newstr = base64.encode(md5.digest(str.getBytes("utf-8")));
+    return  newstr;
+}
+
+
+
+
+    @RequestMapping(value = "/getotp",method = {RequestMethod.POST},consumes ={CONTENT_TYPE_FORMED} )
     @ResponseBody
     public  CommonReturnType getOtp(@RequestParam(name="telphone")String telphone){
 

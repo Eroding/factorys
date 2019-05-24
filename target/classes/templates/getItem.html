@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <title>商品详情</title>
+</head>
+<body>
+<div>
+   <label>商品名</label>
+    <input   id="title"/>
+
+    <label>商品描述</label>
+    <input   id="description"/>
+
+
+    <label>秒杀开始时间</label>
+    <input   id="promoStartDate"/>
+
+
+	 <label>价格</label>
+    <input   id="price"/>
+
+
+    <label>秒杀价格</label>
+    <input   id="promoprice"/>
+
+
+	 <label>图片</label>
+    <input   id="imgUrl"/>
+
+	 <label>库存</label>
+    <input   id="stock"/>
+
+    <label>销量</label>
+    <input id="sales"/>
+    <button id="createorder" type="submit">下单</button>
+</div>
+
+</body>
+
+
+<script>
+
+
+
+    function getParam(paramName) {
+
+
+        paramValue = "",isFound = !1;
+        if (this.location.search.indexOf("?") == 0 && this.location.search.indexOf("=") > 1) {
+            arrSource = unescape(this.location.search).substring(1, this.location.search.length).split("&"), i = 0;
+            while (i < arrSource.length && !isFound) arrSource[i].indexOf("=") > 0 && arrSource[i].split("=")[0].toLowerCase() == paramName.toLowerCase() && (paramValue = arrSource[i].split("=")[1], isFound = !0), i++
+        }
+        return paramValue == "" && (paramValue = null), paramValue
+    }
+    var g_itemVo ={};
+    jQuery(document).ready(function(){
+$("#createorder").on("click",function(){
+    $.ajax({
+        type:"POST",
+         contentType:"application/x-www-form-urlencoded",
+        url:"http://localhost:8090/order/creatorder",
+
+        data:{"itemId":g_itemVo.id,
+            "amount":1,
+            "promoId":g_itemVo.promoId
+        },
+        xhrFields:{withCredentials:true},
+        success:function(data) {
+            if(data.status =="success"){
+             alert("ok");
+            }
+            else {
+                alert("下单失败，原因"+data.data.errMsg);
+                if(data.data.errCode ==20003){
+                    window.location.href="login.html";
+                }
+
+            }
+        },
+        error:function(data){
+            alert("下单操作失败，原因是+"+data.responseText);
+        }
+    });
+
+});
+
+        $.ajax({
+            type:"GET",
+           // contentType:"application/x-www-form-urlencoded",
+            url:"http://localhost:8090/item/get",
+            data:{"id":getParam("id"),
+            },
+            xhrFields:{withCredentials:true},
+            success:function(data) {
+                if(data.status =="success"){
+                    g_itemVo =data.data;
+                    reloadDom();
+                    setInterval(reloadDom,1000);
+                }
+                else {
+                    alert("查看详情失败，原因"+data.data.errMsg);
+                }
+            },
+            error:function(data){
+                alert("查看详情失败，原因是+"+data.responseText);
+            }
+        });
+    });
+
+
+    function reloadDom(){
+        $("#title").val(g_itemVo.title);
+
+
+        $("#description").val(g_itemVo.description);
+
+        $("#stock").val(g_itemVo.stock);
+        $("#price").val(g_itemVo.price);
+        $("#imgUrl").val(g_itemVo.imgUrl);
+          $("#sales").val(g_itemVo.sales);
+          if(g_itemVo.promoStatus ==1){
+              //秒杀活动还未开始
+              var  starttime =  g_itemVo.startTime.replace(new RegExp("-","gm"),"/");
+              starttime =( new Date(starttime)).getTime();
+              var nowTime = Date.parse(new Date());
+              var delta = (starttime - nowTime)/1000;
+
+              if(delta<=0){
+                  //活动开始了
+                  g_itemVo.promoStatus ==2;
+                  reloadDom();
+              }
+
+              $("promoStartDate").text("秒杀活动将于："+g_itemVo.startTime+"开始售卖,倒计时"+delta+"秒");
+              $("promoprice").text(g_itemVo.promoPrice);
+              $("createorder").attr("disabled",true);
+          }else if(g_itemVo.promoStatus ==2){
+              $("promoStartDate").text("秒杀活动正在进行中");
+              $("promoprice").text(g_itemVo.promoPrice);
+              $("createorder").attr("disabled",false);
+          }
+    }
+    
+    
+</script>
+</html>

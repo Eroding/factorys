@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>创建商品</title>
+</head>
+<body>
+
+<h3>创建商品</h3>
+
+<div>
+
+    <label>商品名</label>
+    <input type="text" name="title" id="title">
+
+   
+
+    <label>商品描述</label>
+    <input type="text" name="description" id="description">
+	
+	 <label>价格</label>
+    <input type="text" name="price" id="price">
+	
+	 <label>图片</label>
+    <input type="text" name="imgUrl" id="imgUrl">
+	
+	 <label>库存</label>
+    <input type="text" name="stock" id="stock">
+
+
+    <button id="creat" type="submit">创建商品</button>
+	
+	 
+</div>
+
+</body>
+
+
+<script>
+
+
+
+    $("#creat").click(function(){
+        var title = $("#title").val();
+     
+        var description = $("#description").val();
+
+        var imgUrl = $("#imgUrl").val();
+
+
+     var price = $("#price").val();
+ 
+       var stock = $("#stock").val();
+
+
+
+	   if(title == null||title ==""){
+            alert("商品名不能为空");
+            return;
+        }
+       
+        if(description == null||description ==""){
+            alert("商品描述不能为空");
+            return;
+        }
+		
+		if(imgUrl == null||imgUrl ==""){
+            alert("图片不能为空");
+            return;
+        }
+		
+		if(price == null||price ==""){
+            alert("价格不能为空");
+            return;
+        }
+		
+		if(stock == null||stock ==""){
+            alert("库存不能为空");
+            return;
+        }
+        $.ajax({
+            type:"POST",
+            contentType:"application/x-www-form-urlencoded",
+            url:"http://localhost:8090/item/create",
+            data:{"title":title,
+					"stock":stock,
+					"price":price,
+					"description":description,
+					"imgUrl":imgUrl
+            },
+            xhrFields:{withCredentials:true},
+            success:function(data) {
+                if(data.status =="success"){
+                    alert("创建商品成功");
+                }
+                else {
+                    alert("创建失败，原因"+data.data.errMsg);
+                }
+            },
+            error:function(data){
+                alert("创建商品失败，原因是+"+data.responseText);
+            }
+        });
+
+    });
+
+</script>
+</html>

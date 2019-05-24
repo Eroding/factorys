@@ -2,7 +2,7 @@ package com.factorys.response;
 
 public class CommonReturnType {
 
-    //表面对应请求的返回处理，有success和fail
+    //表明对应请求的返回处理，有success和fail
 
 
     private  String status;

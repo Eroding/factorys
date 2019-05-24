@@ -1,8 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/factorys/validator/ValidationResult.java" line="33" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/factorys/service/impl/OrderServiceImpl.java" line="149" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9da4d5ec-e3ca-467a-9a91-44b45d6874cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/factorys/controller/DemoController.java" beforeDir="false" />
+    <list default="true" id="9da4d5ec-e3ca-467a-9a91-44b45d6874cd" name="Default Changelist" comment="删除DemoController">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/factorys_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/controller/viewobject/ItemVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/error/SeckillStatEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/exception/RepeatKillException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/exception/SeckillCloseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/exception/SeckillException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/PromoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/impl/PromoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/model/Exposer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/model/ItemModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/model/OrderModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/model/PromoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/model/SeckillResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/validator/ValidationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/factorys/validator/ValidatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/tag.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factorys/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factorys/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factorys/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factorys/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factorys/dao/UserDoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factorys/dao/UserDoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factorys/error/EmBusinessError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factorys/error/EmBusinessError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factorys/response/CommonReturnType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factorys/response/CommonReturnType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factorys/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factorys/service/impl/UserServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/impl/UserServiceimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/factorys/service/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/factorys/service/model/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserDoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserDoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserPasswordDoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserPasswordDoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/getotp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/getotp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/controller/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/controller/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/controller/viewobject/UserVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/controller/viewobject/UserVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/dao/UserDoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/dao/UserDoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/dao/UserPasswordDoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/dao/UserPasswordDoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/dataobject/UserDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/dataobject/UserDo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/dataobject/UserPasswordDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/dataobject/UserPasswordDo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/error/BusinessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/error/BusinessException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/error/CommonError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/error/CommonError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/error/EmBusinessError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/error/EmBusinessError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/response/CommonReturnType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/response/CommonReturnType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/service/impl/UserServiceimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/service/impl/UserServiceimpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/factorys/service/model/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/factorys/service/model/UserModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UserDoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/UserDoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UserPasswordDoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/UserPasswordDoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-generator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/getotp.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/getotp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/factorys/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/factorys/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,26 +81,110 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/controller/BaseController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/creat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="1066">
+              <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dao/SequenceDoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="893">
+              <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/listitem.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/factorys/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -41,9 +194,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Base_Column_List</find>
+      <find>price</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -52,16 +216,109 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/factorys/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/factorys/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/ItemDoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/dao/ItemDoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/listitem.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/dao/PromoDoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/PromoService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/PromoDoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/model/PromoModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/impl/PromoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/impl/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/model/ItemModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/controller/viewobject/ItemVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/model/OrderModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/dataobject/PromoDo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/OrderDoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/getItem.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/model/SuccessKilled.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/dataobject/SuccesssKilled.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/dataobject/Seckill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/dao/SeckillMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/dataobject/SuccesssKilledDoKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/dao/SeckillDoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/model/SuccessKilledModel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/SuccesssKilledDoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/exception/SeckillException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/exception/RepeatKillException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/exception/SeckillCloseException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/model/Exposer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/response/CommonReturnType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/dao/SuccesssKilledDoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/error/SeckillStatEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/SeckillIdService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/factorys/service/SeckillIdServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/model/SeckillResult.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/head.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/tag.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/dataobject/SuccesssKilledDo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/model/SeckillExecution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/service/impl/SeckillIdServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/App.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/factorys/controller/SeckillController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="factorys" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="factorys" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="factorys" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="factorys" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="factorys" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="811" />
-    <option name="y" value="13" />
-    <option name="width" value="1112" />
-    <option name="height" value="974" />
+    <option name="x" value="1051" />
+    <option name="y" value="63" />
+    <option name="width" value="946" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -71,8 +328,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,22 +377,134 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="factorys" type="462c0819:PsiDirectoryNode" />
-              <item name="dataobject" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factorys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factorys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factorys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factorys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factorys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factorys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factorys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factorys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factorys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factorys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="factorys" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="D:/idea-workspace/cnh" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.factorys.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea\factorys\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\idea\factorys\src\main\resources\templates" />
+      <recent name="E:\idea\factorys\src\main\resources\package" />
+      <recent name="E:\idea\factorys\src\main\resources\static" />
+      <recent name="E:\idea\factorys\src\main\resources\public" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,6 +518,84 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.factorys.App" />
+      <module name="factorys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.factorys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.factorys.service.impl.OrderServiceImpl" />
+      <module name="factorys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.factorys.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="factorys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.factorys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.factorys.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.OrderServiceImpl" />
+      <item itemvalue="Maven.mybatis-generator" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.OrderServiceImpl" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -162,7 +607,33 @@
       <option name="presentableId" value="Default" />
       <updated>1554339231173</updated>
       <workItem from="1554339234091" duration="141000" />
-      <workItem from="1554339388266" duration="4294000" />
+      <workItem from="1554339388266" duration="10258000" />
+      <workItem from="1554700614701" duration="599000" />
+      <workItem from="1554788200471" duration="7409000" />
+      <workItem from="1554795639987" duration="4664000" />
+      <workItem from="1554854706065" duration="7860000" />
+      <workItem from="1554864865518" duration="10881000" />
+      <workItem from="1554941184451" duration="6122000" />
+      <workItem from="1554947600726" duration="17368000" />
+      <workItem from="1555027466575" duration="19473000" />
+      <workItem from="1555053565700" duration="4402000" />
+      <workItem from="1555058084963" duration="4042000" />
+      <workItem from="1555114473027" duration="14929000" />
+      <workItem from="1555311793958" duration="262000" />
+      <workItem from="1555312276182" duration="878000" />
+      <workItem from="1555313176342" duration="4017000" />
+      <workItem from="1555373109468" duration="26725000" />
+      <workItem from="1555459752716" duration="6952000" />
+      <workItem from="1555467788111" duration="4611000" />
+      <workItem from="1555477503914" duration="11970000" />
+      <workItem from="1557818719162" duration="2384000" />
+      <workItem from="1557880235955" duration="16740000" />
+      <workItem from="1557965576166" duration="17547000" />
+      <workItem from="1558053645608" duration="22596000" />
+      <workItem from="1558145507883" duration="9020000" />
+      <workItem from="1558311305265" duration="9754000" />
+      <workItem from="1558348487253" duration="599000" />
+      <workItem from="1558683644303" duration="3984000" />
     </task>
     <task id="LOCAL-00001" summary="新增了一个controller和添加了一个备注">
       <created>1554359244497</created>
@@ -171,49 +642,65 @@
       <option name="project" value="LOCAL" />
       <updated>1554359244497</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="删除DemoController">
+      <created>1554364072137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554364072137</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4435000" />
+    <option name="totallyTimeSpent" value="246187000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="811" y="13" width="1112" height="974" extended-state="0" />
+    <frame x="790" y="61" width="946" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3231939" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8794326" visible="true" weight="0.36455983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Web" order="2" sideWeight="0.120567374" side_tool="true" visible="true" weight="0.36455983" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49904943" weight="0.32936978" />
-      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8215671" visible="true" weight="0.3781698" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5886256" weight="0.43014705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4988363" weight="0.3293124" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996121" weight="0.3293124" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5009506" side_tool="true" visible="true" weight="0.32936978" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.41137442" side_tool="true" weight="0.47768396" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49904943" weight="0.32855567" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.21869488" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32919255" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,30 +709,480 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="idea上传github测试" />
     <MESSAGE value="新增了一个controller和添加了一个备注" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增了一个controller和添加了一个备注" />
+    <MESSAGE value="删除DemoController" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除DemoController" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/factorys/service/UserService.java</url>
+          <line>9</line>
+          <properties class="com.factorys.service.UserService" method="register" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="validator.validator" />
+        <watch expression="validator.validator" language="JAVA" />
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/factorys.iml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/controller/BaseController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/tag.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="19">
+          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/controller/DemoController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/model/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/model/OrderModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/model/PromoModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/model/ItemModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dataobject/SeckillDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dataobject/SequenceDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dataobject/ItemStockDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dataobject/OrderDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dataobject/PromoDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dataobject/UserDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dataobject/UserPasswordDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/model/SuccessKilledModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dataobject/SuccesssKilledDo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dataobject/ItemDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="145" column="56" lean-forward="true" selection-start-line="145" selection-start-column="56" selection-end-line="145" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/error/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/error/EmBusinessError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/validator/ValidationResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/getItem.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/getotp.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/validator/ValidatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/impl/UserServiceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="123" column="28" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/SeckillDoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dao/SeckillDoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="60" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dao/SuccesssKilledDoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="67" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-generator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/SuccesssKilledDoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="70" column="11" selection-start-line="45" selection-start-column="1" selection-end-line="70" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/model/Exposer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="97" selection-start-line="1" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/SeckillIdService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/error/SeckillStatEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/impl/SeckillIdServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/controller/SeckillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/response/CommonReturnType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/model/SeckillResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="90" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="43" selection-start-line="43" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/dao/SequenceDoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/service/model/SeckillExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/creat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1066">
+          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/listitem.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/factorys/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/factorys/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        <state relative-caret-position="893">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>factorys:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>factorys</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
